@@ -1,19 +1,40 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="3" total="4" passed="1">
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="30" started-at="2023-05-11T12:10:45Z" finished-at="2023-05-11T12:10:45Z">
+  <suite started-at="2023-05-16T19:31:41 IST" name="Suite" finished-at="2023-05-16T19:31:41 IST" duration-ms="77">
     <groups>
+      <group name="Apple">
+        <method signature="JenkinsCaseStudy2.apple1()[pri:0, instance:com.jenkins.casestudy.JenkinsCaseStudy2@524d6d96]" name="apple1" class="com.jenkins.casestudy.JenkinsCaseStudy2"/>
+      </group> <!-- Apple -->
+      <group name="Lenova">
+        <method signature="JenkinsCaseStudy2.lenova1()[pri:0, instance:com.jenkins.casestudy.JenkinsCaseStudy2@524d6d96]" name="lenova1" class="com.jenkins.casestudy.JenkinsCaseStudy2"/>
+      </group> <!-- Lenova -->
+      <group name="Moto">
+        <method signature="JenkinsCaseStudy2.motog1()[pri:0, instance:com.jenkins.casestudy.JenkinsCaseStudy2@524d6d96]" name="motog1" class="com.jenkins.casestudy.JenkinsCaseStudy2"/>
+      </group> <!-- Moto -->
       <group name="MI">
-        <method signature="JenkinsCaseStudy2.m1()[pri:0, instance:com.jenkins.casestudy.JenkinsCaseStudy2@42e26948]" name="m1" class="com.jenkins.casestudy.JenkinsCaseStudy2"/>
+        <method signature="JenkinsCaseStudy2.m1()[pri:0, instance:com.jenkins.casestudy.JenkinsCaseStudy2@524d6d96]" name="m1" class="com.jenkins.casestudy.JenkinsCaseStudy2"/>
       </group> <!-- MI -->
     </groups>
-    <test name="Test" duration-ms="30" started-at="2023-05-11T12:10:45Z" finished-at="2023-05-11T12:10:45Z">
+    <test started-at="2023-05-16T19:31:41 IST" name="Test" finished-at="2023-05-16T19:31:41 IST" duration-ms="77">
       <class name="com.jenkins.casestudy.JenkinsCaseStudy2">
-        <test-method status="PASS" signature="m1()[pri:0, instance:com.jenkins.casestudy.JenkinsCaseStudy2@42e26948]" name="m1" duration-ms="10" started-at="2023-05-11T17:40:45Z" finished-at="2023-05-11T17:40:45Z">
+        <test-method signature="apple1()[pri:0, instance:com.jenkins.casestudy.JenkinsCaseStudy2@524d6d96]" started-at="2023-05-16T19:31:41 IST" name="apple1" finished-at="2023-05-16T19:31:41 IST" duration-ms="11" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- apple1 -->
+        <test-method signature="lenova1()[pri:0, instance:com.jenkins.casestudy.JenkinsCaseStudy2@524d6d96]" started-at="2023-05-16T19:31:41 IST" name="lenova1" finished-at="2023-05-16T19:31:41 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lenova1 -->
+        <test-method signature="m1()[pri:0, instance:com.jenkins.casestudy.JenkinsCaseStudy2@524d6d96]" started-at="2023-05-16T19:31:41 IST" name="m1" finished-at="2023-05-16T19:31:41 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- m1 -->
+        <test-method signature="motog1()[pri:0, instance:com.jenkins.casestudy.JenkinsCaseStudy2@524d6d96]" started-at="2023-05-16T19:31:41 IST" name="motog1" finished-at="2023-05-16T19:31:41 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- motog1 -->
       </class> <!-- com.jenkins.casestudy.JenkinsCaseStudy2 -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->
